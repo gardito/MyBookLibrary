@@ -1,8 +1,0 @@
-/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Core/bin/Debug/netstandard2.1/MyBookLibrary.Core.deps.json
-/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Core/bin/Debug/netstandard2.1/MyBookLibrary.Core.dll
-/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Core/bin/Debug/netstandard2.1/MyBookLibrary.Core.pdb
-/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Core/obj/Debug/netstandard2.1/MyBookLibrary.Core.csprojAssemblyReference.cache
-/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Core/obj/Debug/netstandard2.1/MyBookLibrary.Core.AssemblyInfoInputs.cache
-/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Core/obj/Debug/netstandard2.1/MyBookLibrary.Core.AssemblyInfo.cs
-/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Core/obj/Debug/netstandard2.1/MyBookLibrary.Core.dll
-/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Core/obj/Debug/netstandard2.1/MyBookLibrary.Core.pdb
