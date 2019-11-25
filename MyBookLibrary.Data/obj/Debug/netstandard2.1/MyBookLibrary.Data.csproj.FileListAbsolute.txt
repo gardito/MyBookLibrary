@@ -1,0 +1,11 @@
+/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Data/obj/Debug/netstandard2.1/MyBookLibrary.Data.csprojAssemblyReference.cache
+/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Data/obj/Debug/netstandard2.1/MyBookLibrary.Data.AssemblyInfoInputs.cache
+/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Data/obj/Debug/netstandard2.1/MyBookLibrary.Data.AssemblyInfo.cs
+/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Data/bin/Debug/netstandard2.1/MyBookLibrary.Data.deps.json
+/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Data/bin/Debug/netstandard2.1/MyBookLibrary.Data.dll
+/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Data/bin/Debug/netstandard2.1/MyBookLibrary.Data.pdb
+/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Data/bin/Debug/netstandard2.1/MyBookLibrary.Core.dll
+/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Data/bin/Debug/netstandard2.1/MyBookLibrary.Core.pdb
+/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Data/obj/Debug/netstandard2.1/MyBookLibrary.Data.csproj.CopyComplete
+/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Data/obj/Debug/netstandard2.1/MyBookLibrary.Data.dll
+/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Data/obj/Debug/netstandard2.1/MyBookLibrary.Data.pdb

@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Services/MyBookLibrary.Services.csproj": {}
+  },
+  "projects": {
+    "/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Core/MyBookLibrary.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Core/MyBookLibrary.Core.csproj",
+        "projectName": "MyBookLibrary.Core",
+        "projectPath": "/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Core/MyBookLibrary.Core.csproj",
+        "packagesPath": "/Users/giulioardito/.nuget/packages/",
+        "outputPath": "/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/giulioardito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Services/MyBookLibrary.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Services/MyBookLibrary.Services.csproj",
+        "projectName": "MyBookLibrary.Services",
+        "projectPath": "/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Services/MyBookLibrary.Services.csproj",
+        "packagesPath": "/Users/giulioardito/.nuget/packages/",
+        "outputPath": "/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Services/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/giulioardito/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Core/MyBookLibrary.Core.csproj": {
+                "projectPath": "/Users/giulioardito/Projects/MyBookLibrary/MyBookLibrary.Core/MyBookLibrary.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
