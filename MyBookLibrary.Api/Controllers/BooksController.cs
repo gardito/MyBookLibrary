@@ -37,5 +37,53 @@ namespace MyBookLibrary.Api.Controllers
             
             return Ok(bookDto);
         }
+
+        [HttpPost("")]
+        public async Task<ActionResult<BookDto>> CreateBook([FromBody] SaveBookDto saveBookDto)
+        {
+            var bookToCreate = _mapper.Map<SaveBookDto, Book>(saveBookDto);
+            var newBook = await _bookService.CreateBook(bookToCreate);
+
+            var book = await _bookService.GetBookById(newBook.Id);
+
+            var bookDto = _mapper.Map<Book, BookDto>(book);
+
+            return Ok(bookDto);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult<BookDto>> UpdateBook(int id, [FromBody] SaveBookDto saveBookDto)
+        {
+            var bookToUpdate = await _bookService.GetBookById(id);
+
+            if (bookToUpdate == null)
+                return NotFound();
+
+            var book = _mapper.Map<SaveBookDto, Book>(saveBookDto);
+
+            await _bookService.UpdateBook(bookToUpdate, book);
+
+            var updatedBook = await _bookService.GetBookById(id);
+
+            var updatedBookDto = _mapper.Map<Book, SaveBookDto>(updatedBook);
+
+            return Ok(updatedBookDto);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteBook(int id)
+        {
+            if (id == 0)
+                return BadRequest();
+
+            var music = await _bookService.GetBookById(id);
+
+            if (music == null)
+                return NotFound();
+
+            await _bookService.DeleteBook(music);
+
+            return NoContent();
+        }
     }
 }
