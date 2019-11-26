@@ -22,11 +22,20 @@ namespace MyBookLibrary.Api.Controllers
         }
         
         [HttpGet("")]
-        public async Task<ActionResult<IEnumerable<Book>>> GetAllBooks()
+        public async Task<ActionResult<IEnumerable<BookDto>>> GetAllBooks()
         {
             var books = await _bookService.GetAllWithAuthor();
             var booksDto = _mapper.Map<IEnumerable<Book>, IEnumerable<BookDto>>(books);
-            return Ok(books);
+            return Ok(booksDto);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<BookDto>> GetBookById(int id)
+        {
+            var book = await _bookService.GetBookById(id);
+            var bookDto = _mapper.Map<Book, BookDto>(book);
+            
+            return Ok(bookDto);
         }
     }
 }
