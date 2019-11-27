@@ -1,6 +1,6 @@
 namespace MyBookLibrary.Api.DTOs
 {
-    public class CreateAuthorDto
+    public class SaveAuthorDto
     {
         public string Name { get; set; }
     }
