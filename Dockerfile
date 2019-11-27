@@ -12,4 +12,4 @@ FROM mcr.microsoft.com/dotnet/core/sdk:3.0-alpine
 WORKDIR /app
 COPY --from=build-env /app/out .
 EXPOSE 80
-ENTRYPOINT ["dotnet", "MyBookLibrary.dll"]
+ENTRYPOINT ["dotnet", "MyBookLibrary.Api.dll"]
